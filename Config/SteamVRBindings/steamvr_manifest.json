@@ -160,6 +160,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/StartBattle_1",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MoveForward axis",
 			"type": "vector1"
 		},
@@ -419,6 +423,7 @@
 			"/actions/main/in/IncreaseSpeed": "IncreaseSpeed",
 			"/actions/main/in/ReduceSpeed": "ReduceSpeed",
 			"/actions/main/in/StartBattle": "StartBattle",
+			"/actions/main/in/StartBattle_1": "StartBattle_1",
 			"/actions/main/in/MoveForward axis": "MoveForward",
 			"/actions/main/in/MoveLeft axis": "MoveLeft",
 			"/actions/main/in/MoveRight axis": "MoveRight",
