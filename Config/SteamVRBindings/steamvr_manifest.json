@@ -164,6 +164,18 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/FireForward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/FireRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveBackward axis",
+			"type": "vector1"
+		},
+		{
 			"name": "/actions/main/in/MoveForward axis",
 			"type": "vector1"
 		},
@@ -173,10 +185,6 @@
 		},
 		{
 			"name": "/actions/main/in/MoveRight axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MoveBackward axis",
 			"type": "vector1"
 		}
 	],
@@ -424,10 +432,12 @@
 			"/actions/main/in/ReduceSpeed": "ReduceSpeed",
 			"/actions/main/in/StartBattle": "StartBattle",
 			"/actions/main/in/StartBattle_1": "StartBattle_1",
+			"/actions/main/in/FireForward axis": "FireForward",
+			"/actions/main/in/FireRight axis": "FireRight",
+			"/actions/main/in/MoveBackward axis": "MoveBackward",
 			"/actions/main/in/MoveForward axis": "MoveForward",
 			"/actions/main/in/MoveLeft axis": "MoveLeft",
 			"/actions/main/in/MoveRight axis": "MoveRight",
-			"/actions/main/in/MoveBackward axis": "MoveBackward",
 			"/actions/main": "Main Game Actions"
 		}
 	]

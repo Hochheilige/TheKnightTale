@@ -68,6 +68,21 @@
 					},
 					"inputs":
 					{
+						"south":
+						{
+							"output": "/actions/main/in/MoveBackward axis"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
 						"north":
 						{
 							"output": "/actions/main/in/MoveForward axis"
@@ -101,21 +116,6 @@
 						"east":
 						{
 							"output": "/actions/main/in/MoveRight axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/MoveBackward axis"
 						}
 					}
 				}
